@@ -1,3 +1,9 @@
+<script lang="ts">
+
+</script>
+
 <template>
-  <nav>Header</nav>
+  <nav>
+    <Logo />
+  </nav>
 </template>
