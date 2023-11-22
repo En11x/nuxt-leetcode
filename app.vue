@@ -1,5 +1,16 @@
+<script setup>
+import '@unocss/reset/tailwind.css'
+</script>
+
 <template>
-  <div>
-    1
-  </div>
+  <NuxtLayout>
+    <Header />
+    <NuxtPage />
+  </NuxtLayout>
 </template>
+
+<style>
+.dark{
+  color-scheme: dark;
+}
+</style>
